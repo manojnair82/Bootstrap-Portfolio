@@ -1,0 +1,74 @@
+/* Porfolio Project style sheet */
+
+#name1,#text2,#Bio{
+	float: left;
+	vertical-align: middle;
+	margin: auto;
+}
+
+#name1{
+	z-index: 3;
+
+}
+
+.name3 {
+background-color: #4aaaa5;
+
+}
+
+#about1{
+	clear: both;
+	float: left;
+	text-align: left;
+}
+
+#nav1{
+
+	text-align: right;
+	height: 80px;
+	background-color: white;
+	vertical-align: middle;
+	padding-top: 20px;
+}
+#Bio{
+	width: 100%;
+}
+
+#connect2,.copy{
+	text-align: center;
+	vertical-align: middle;
+		margin: auto;
+}
+
+.copy,#gap {
+	clear: both;
+	width: 100%;
+
+}
+
+#gap {
+	background-color: #4aaaa5;
+	height: 10px;
+}
+
+.copy {
+	background-color: darkgrey;
+	margin: 0px;
+	padding:0px;
+	border: 0px;
+
+}
+
+#copy1{
+	height: 60px;
+	vertical-align: middle;
+}
+
+
+@media (max-width: 640px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 980px) { ... }
